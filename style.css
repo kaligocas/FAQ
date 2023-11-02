@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(251, 239, 249);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1 {
+    color: rgb(140, 4, 140);
+    text-decoration: underline;
+   
+}
+h2{
+    padding: 2%;
+    text-decoration: underline;
+}
+
+#menu{
+    
+    border-radius: 5px;
+    position:relative;
+    width: 30%;
+    padding:3% ;
+    margin-top:5%;
+    
+
+
+}
+#menu ul li{
+    list-style: none;
+    padding: 2%;
+    margin-top: 2%;
+    border-radius: 5px;
+    color: rgb(140, 4, 140);
+    cursor: pointer;
+   
+}
+#menu ul li:hover{
+    background-color: rgb(101, 17, 92);
+    color: rgb(154, 122, 154);
+    transition: 0.5s;
+    scale: 1.1;
+    
+}
+#menu a{
+    text-decoration: none;
+    color: rgb(210, 160, 204);
+}
+#section_theory{
+    position: relative;
+    margin-top: -30%;
+}
+#theory{
+   
+    display: inline;
+    float: right;
+    width: 65%;
+   
+
+}
+#theory li{
+    list-style: none;
+    padding: 15%;
+}
+.item_theory{
+    padding: 1%;
+    color: rgb(140, 4, 140);
+}
+
+
+.return{
+    position: relative;
+    padding: 5%;
+    width: 2%;
+}
+.return:hover{
+    opacity: 0.5;
+    transition: 0.5s;
+    scale: 1.6;
+}
